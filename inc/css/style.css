@@ -1,0 +1,62 @@
+.certificate-tabs {
+	margin-top: 50px;
+}
+.mt-40 {
+	margin-top: 40px;
+}
+.mt-32 {
+	margin-top: 32px;
+}
+.cf-search {
+    width: 700px;
+    margin: 50px auto;
+    background: #f7f8fd;
+    border: 3px solid #eceefb;
+    padding: 30px;
+    border-radius: 10px;
+}
+.cf-search form {
+	display: flex;
+}
+.cf-field {
+	display: inline-block !important;
+    border: 1px solid #000 !important;
+    margin-bottom: 0px !important;
+}
+.cf-btn {
+	display: inline-block;
+	border: none;
+    height: 47px;
+    width: 200px;
+    background: #000;
+    color: #fff;
+}
+.success {
+	color: #155724;
+    background-color: #d4edda;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c3e6cb;
+    border-radius: .25rem;
+}
+.danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #f5c6cb;
+    border-radius: .25rem;
+}
+
+@media screen and ( max-width: 768px ){
+	.cf-search{ width: 90%; }
+}
+@media screen and ( max-width: 480px ){
+	.cf-search form { display: initial; }
+	.cf-field, .cf-btn {
+		display: block !important;
+		width: 100%;
+	}
+}
