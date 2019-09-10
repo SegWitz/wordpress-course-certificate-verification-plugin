@@ -21,7 +21,7 @@ function drop_certificate_table(){
 
 	// global $wpdb;
 	// $table_name = $wpdb->prefix . 'e34s_clients';
-	// $sql = "DROP TABLE IF EXISTS inferno_course_certificates";
+	// $sql = "DROP TABLE IF EXISTS segwitz_course_certificates";
 	// $wpdb->query($sql);
 	// delete_option('e34s_time_card_version');
 }

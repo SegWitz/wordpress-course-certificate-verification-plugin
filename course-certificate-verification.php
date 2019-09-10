@@ -17,7 +17,7 @@ function plugin_styles_scripts(){
 
     wp_enqueue_style('dataTable-css', plugin_dir_url( __FILE__ ) . 'inc/css/jquery.dataTables.css' );
     wp_enqueue_script('dataTable-js', plugin_dir_url( __FILE__ ) . 'inc/js/jquery.dataTables.js' );
-    wp_enqueue_script('segwetz-js', plugin_dir_url( __FILE__ ) . 'inc/js/plugin.js' );
+    wp_enqueue_script('segwitz-js', plugin_dir_url( __FILE__ ) . 'inc/js/plugin.js' );
 }
 add_action('admin_enqueue_scripts', 'plugin_styles_scripts');
 

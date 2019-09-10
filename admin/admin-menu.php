@@ -6,7 +6,7 @@ if (! defined( 'ABSPATH' )) {
 
 
 // add top-level administrative menu
-function inferno_certificate_admin_menu() {
+function segwitz_certificate_admin_menu() {
 	
 	/* 
 		add_menu_page(
@@ -31,4 +31,4 @@ function inferno_certificate_admin_menu() {
 	);
 	
 }
-add_action( 'admin_menu', 'inferno_certificate_admin_menu' );
+add_action( 'admin_menu', 'segwitz_certificate_admin_menu' );
