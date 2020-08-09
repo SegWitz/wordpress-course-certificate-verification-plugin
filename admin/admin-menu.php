@@ -6,7 +6,7 @@ if (! defined( 'ABSPATH' )) {
 
 
 // add top-level administrative menu
-function segwitz_certificate_admin_menu() {
+function course_certificate_admin_menu() {
 	
 	/* 
 		add_menu_page(
@@ -25,10 +25,10 @@ function segwitz_certificate_admin_menu() {
 		'Certificate Codes',
 		'manage_options',
 		'certificate-codes',
-		'admin_certificate_ui',
+		'course_certificate_admin_certificate_ui',
 		'dashicons-admin-generic',
 		null
 	);
 	
 }
-add_action( 'admin_menu', 'segwitz_certificate_admin_menu' );
+add_action( 'admin_menu', 'course_certificate_admin_menu' );

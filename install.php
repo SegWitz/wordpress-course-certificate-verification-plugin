@@ -5,7 +5,7 @@ if (! defined( 'ABSPATH' )) {
 }
 
 
-function segwitz_certificate_onActivation(){
+function course_certificate_segwitz_certificate_onActivation(){
 	global $wpdb;
     $charset_collate = $wpdb->get_charset_collate();
     $create_table_query = "

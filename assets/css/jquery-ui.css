@@ -1062,65 +1062,33 @@ a.ui-button:active,
 	width: 16px;
 	height: 16px;
 }
-.ui-datepicker-prev { 
-    background-image: url(../images/icon-left.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 16px !important;
-    height: 16px !important;
-    margin-left: 10px;
-    margin-top: 3px;
-}
-.ui-datepicker-prev-hover:hover {
-	background-image: url(../images/icon-left.png);
-	background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.ui-datepicker-next { 
-    background-image: url(../images/icon-right.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 16px !important;
-    height: 16px !important;
-    margin-right: 10px;
-    margin-top: 3px;
-}
-.ui-datepicker-next-hover:hover {
-	background-image: url(../images/icon-right.png);
-	background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 .ui-icon,
 .ui-widget-content .ui-icon {
-	/*background-image: url("images/ui-icons_444444_256x240.png");*/
+	background-image: url("../images/ui-icons_444444_256x240.png");
 }
 .ui-widget-header .ui-icon {
-	/*background-image: url("images/ui-icons_444444_256x240.png");*/
+	background-image: url("../images/ui-icons_444444_256x240.png");
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon,
 .ui-button:hover .ui-icon,
 .ui-button:focus .ui-icon {
-	/*background-image: url("images/ui-icons_555555_256x240.png");*/
+	background-image: url("../images/ui-icons_555555_256x240.png");
 }
 .ui-state-active .ui-icon,
 .ui-button:active .ui-icon {
-	/*background-image: url("images/ui-icons_ffffff_256x240.png");*/
+	background-image: url("../images/ui-icons_ffffff_256x240.png");
 }
 .ui-state-highlight .ui-icon,
 .ui-button .ui-state-highlight.ui-icon {
-	/*background-image: url("images/ui-icons_777620_256x240.png");*/
+	background-image: url("../images/ui-icons_777620_256x240.png");
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	/*background-image: url("images/ui-icons_cc0000_256x240.png");*/
+	background-image: url("../images/ui-icons_cc0000_256x240.png");
 }
 .ui-button .ui-icon {
-	/*background-image: url("images/ui-icons_777777_256x240.png");*/
+	background-image: url("../images/ui-icons_777777_256x240.png");
 }
 
 /* positioning */
