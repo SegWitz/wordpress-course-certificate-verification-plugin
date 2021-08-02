@@ -7,7 +7,7 @@
  * Plugin Name: Certificate Verification
  * Plugin URI: https://segwitz.com/certificate-verification-wordpress-plugin/
  * Description: Admin can enter course certificate codes , and details in the panel and user can verify their certificate using the cource code in the front end.
- * Version: 2.0
+ * Version: 2.1
  * Author: SegWitz
  * Author URI: https://segwitz.com
  */
